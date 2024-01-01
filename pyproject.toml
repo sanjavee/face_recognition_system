@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "face-recognition"
+version = "0.1.0"
+description = "Face-Recognition system using Open-cv library made for Mini-Project."
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "face_recognition"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
